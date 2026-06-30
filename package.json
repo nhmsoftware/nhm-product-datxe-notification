@@ -1,0 +1,20 @@
+{
+  "name": "nhm-product-datxe-notification",
+  "version": "1.0.0",
+  "description": "Push Notification service for NHM Dat Xe — subscribes to Redis events and sends FCM/APNs notifications via provider API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["push-notification", "redis", "fcm"],
+  "author": "NHM Software",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^17.4.2",
+    "ioredis": "^5.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "winston": "^3.17.0"
+  }
+}
