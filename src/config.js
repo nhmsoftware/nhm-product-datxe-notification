@@ -18,7 +18,6 @@ module.exports = {
   backendApiUrl: process.env.BACKEND_API_URL || 'http://localhost:8000',
   backendJwtSecret: process.env.BACKEND_JWT_SECRET || '',
 
-  // Push provider
-  pushProviderUrl: process.env.PUSH_PROVIDER_URL || '',
-  pushProviderApiKey: process.env.PUSH_PROVIDER_API_KEY || '',
+  // Firebase FCM v1
+  firebaseServiceAccountPath: process.env.FIREBASE_SERVICE_ACCOUNT_PATH || '',
 };
